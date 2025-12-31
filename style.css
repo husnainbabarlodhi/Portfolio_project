@@ -1,0 +1,94 @@
+/* style.css */
+
+body {
+    background-color: whitesmoke /* Bg color white rakha h*/
+  margin: 0;
+  font-family: sans-serif; /* yeh uska font*/
+    line-height: 1.6;}
+/* Header */
+.main-header {
+background-color: darkblue; /* theme ka color name */
+ padding: 25px;
+  text-align: center;    color: white;}
+.main-header h1 {
+
+margin-top: 0;
+    margin-bottom: 5px;}
+/* Menu Bar */
+.nav-bar {
+text-align: center;
+    background-color: navy; /* color name */    padding: 10px;}
+.nav-bar a {
+    text-decoration: none;
+  color: white;
+    padding: 10px 20px;
+        display: inline-block;
+    font-size: 18px;}
+  
+
+.nav-bar a:hover {
+    background-color: blue; /* Hover par simple blue */
+border-radius: 5px;}
+/* Page Container */
+.container {background-color: darkcyan;
+    width: 80%;
+margin-left: auto;
+      margin-right: auto;
+    margin-top: 30px;
+padding: 40px;
+    border: 1px solid lightgray; /* Border add kiya simple look k liye */
+    min-height: 500px;}
+/* Profile Picture */
+.profile-photo {display: block;
+    margin-left: auto;
+margin-right: auto;
+ width: 180px;
+     height: 180px;
+    border-radius: 55%;
+    border: 5px solid darkblue;
+    margin-bottom: 20px;}
+/* Headings */
+.section-title {
+    color: darkblue;
+     border-bottom: 2px solid gray;
+ padding-bottom: 5px;}
+/* Skills List */
+.skills-list li {list-style: none;
+background-color: lightgray; /* Simple grey */
+    padding: 10px;    margin-bottom: 5px;
+    border-left: 5px solid navy;
+}
+/* Tables */
+table {
+
+    border-collapse: collapse;
+ width: 100%;}
+td, th {
+    border: 1px solid gray;
+padding: 10px;
+    text-align: left;}
+th {
+ color: white;
+    background-color: darkblue;}
+/* Forms */
+.form-group {margin-bottom: 15px;}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+      margin-top: 5px;
+border: 1px solid gray;}
+.submit-btn {
+    padding: 10px 20px;
+    background-color: darkblue;    color: white;
+    border: none;
+    cursor: pointer;
+ font-size: 16px;
+    margin-top: 10px;}
+.submit-btn:hover {background-color: navy;}
+/* Footer */
+.main-footer {padding: 20px;
+margin-top: 40px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
